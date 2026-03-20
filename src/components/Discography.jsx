@@ -23,14 +23,14 @@ const RECENT = [
   { y:"2023", type:"TV Series · Final Season", title:"Yellowstone Season 5",  desc:"His final appearance as John Dutton in the Paramount hit that made him a TV legend.", hl:false },
 ];
 
-const STRIP = [
-  "https://resizing.flixster.com/0JlYLxHv7pgWu0c9sMlbB5H9_Ss=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11582_p_v8_ad.jpg",
-  "https://variety.com/wp-content/uploads/2025/01/MSDBODY_WB002.jpg?w=1000&h=667&crop=1&resize=1920%2C1280",
-  "https://m.media-amazon.com/images/M/MV5BNDA3NzA3MDYyOF5BMl5BanBnXkFtZTcwMzc0ODI1NA@@._V1_QL75_UX588_.jpg",
-  "https://i0.wp.com/www.moviescramble.co.uk/wp-content/uploads/2014/09/Draft-Day-Kevin-Costner.jpg?w=550&ssl=1",
-  "https://static0.moviewebimages.com/wordpress/wp-content/uploads/article/XF4X0vBqYO60NEg3imOSrqJtZ0TqgN.jpg?q=50&fit=crop&w=1120&h=630&dpr=1.5",
-  "https://people.com/thmb/UW5PB-CFO91CQLcH8J_uiCJTTp8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/KEVIN-COSTNER-horizon-062424-7b4ba32b689a4644bf0ffa633b7c10a5.jpg",
-];
+// const STRIP = [
+//   "https://resizing.flixster.com/0JlYLxHv7pgWu0c9sMlbB5H9_Ss=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11582_p_v8_ad.jpg",
+//   "https://variety.com/wp-content/uploads/2025/01/MSDBODY_WB002.jpg?w=1000&h=667&crop=1&resize=1920%2C1280",
+//   "https://m.media-amazon.com/images/M/MV5BNDA3NzA3MDYyOF5BMl5BanBnXkFtZTcwMzc0ODI1NA@@._V1_QL75_UX588_.jpg",
+//   "https://i0.wp.com/www.moviescramble.co.uk/wp-content/uploads/2014/09/Draft-Day-Kevin-Costner.jpg?w=550&ssl=1",
+//   "https://static0.moviewebimages.com/wordpress/wp-content/uploads/article/XF4X0vBqYO60NEg3imOSrqJtZ0TqgN.jpg?q=50&fit=crop&w=1120&h=630&dpr=1.5",
+//   "https://people.com/thmb/UW5PB-CFO91CQLcH8J_uiCJTTp8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/KEVIN-COSTNER-horizon-062424-7b4ba32b689a4644bf0ffa633b7c10a5.jpg",
+// ];
 
 export default function Discography() {
   const [dec, setDec] = useState(0);
@@ -54,7 +54,7 @@ export default function Discography() {
       </div>
       <div className="filmo-main">
         {/* Film strip */}
-        <div className="fstrip sr">
+        {/* <div className="fstrip sr">
           <div className="fstrip-t">
             {[...STRIP,...STRIP].map((src, i) => (
               <div className="fstrip-f" key={i}>
@@ -63,7 +63,7 @@ export default function Discography() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div style={{ fontFamily:"var(--fm)",fontSize:".54rem",letterSpacing:".3em",textTransform:"uppercase",color:"var(--red)",display:"flex",alignItems:"center",gap:10,marginBottom:16 }} className="sr">
           <span style={{ display:"block",width:20,height:1,background:"var(--red)" }} />

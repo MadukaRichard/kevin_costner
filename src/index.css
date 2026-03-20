@@ -680,13 +680,13 @@ footer{
 
   /* Hero */
   .hero{padding:72px 0 88px}
-  .hero-title{font-size:clamp(3rem,14vw,7rem);margin-bottom:-32px}
+  .hero-title{font-size:clamp(3rem,14vw,7rem);margin-bottom:32px}
   .hero-panels{padding:0 12px;gap:3px}
   .hero-panel{height:200px}
   .hero-panel:first-child,.hero-panel:last-child{display:none}
   .hero-glow-l,.hero-glow-r{width:80px}
   .hero-vert{display:none}
-  .hero-tagline{font-size:.66rem;padding:0 24px;margin-top:32px}
+  .hero-tagline{font-size:.66rem;padding:0 24px;margin-top:8px}
   .hero-countdown{font-size:.56rem;margin-top:24px}
   .hero-bottom{left:20px;right:20px;bottom:16px}
 
