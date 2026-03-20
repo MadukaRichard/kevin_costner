@@ -1,5 +1,5 @@
 export default function MeetGreet() {
-  const waUrl = "https://wa.me/13465420600?text=Hi%20Kevin's%20Team!%20I'd%20love%20to%20book%20a%20Meet%20%26%20Greet.";
+  const waUrl = "https://wa.me/13465410600?text=Hi%20Kevin's%20Team!%20I'd%20love%20to%20book%20a%20Meet%20%26%20Greet.";
   const steps = [
     { n:"01", title:"Click to Connect",    desc:"Tap the button below and you'll be taken directly to WhatsApp to start a conversation with Kevin's management team." },
     { n:"02", title:"Share Your Details",  desc:"Let the team know your preferred date, city, and any special requests for your personal meet & greet experience." },
@@ -33,7 +33,7 @@ export default function MeetGreet() {
             </div>
             <div>
               <div className="mg-lbl">Book via WhatsApp</div>
-              <div className="mg-num">+1 (346) 542-0600</div>
+              <div className="mg-num">+1 (346) 541-0600</div>
             </div>
           </div>
           <p className="mg-body">Our team responds within 24 hours. Tap the button below to open WhatsApp with a pre-filled message — just hit send and we'll take it from there.</p>
